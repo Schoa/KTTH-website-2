@@ -21,6 +21,14 @@ html{
     text-align: justify;
 }
 
+#intro {
+  font-family: 'Lato', sans-serif;
+  color: #FEFFFF;
+  opacity: 0;
+  font-size: 5rem;
+  animation: fadeIn 2s ease forwards;
+}
+
 .container{
     width: 100vw;
     height: 100vh;
