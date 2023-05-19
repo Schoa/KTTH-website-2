@@ -167,7 +167,7 @@ body {
 .post {
   min-height: 100vh;
   width: 100%;
-  border: 0.5em solid #fff;
+  border: 0.5em solid #FEFFFF;
 }
 @media (min-width: 54em) {
   .post {
@@ -179,7 +179,6 @@ body {
 .post > *:first-child {
   position: relative;
   height: 14em;
-  background-color: #000;
 }
 @media (min-width: 30em) {
   .post > *:first-child {
@@ -265,7 +264,7 @@ body {
   width: 100%;
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   overflow: hidden;
 }
 
