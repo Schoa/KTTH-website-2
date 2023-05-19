@@ -51,14 +51,17 @@ hr.hr-main{
 .section1{
     width: 100vw;
     height: 100vh;
+    background-color: aqua;
 }
 
 .section2{
     width: 100vw;
     height: 100vh;
+    background-color: antiquewhite;
 }
 
 .section3{
     width: 100vw;
     height: 100vh;
+    background-color: red;
 }
