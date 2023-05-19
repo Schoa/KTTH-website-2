@@ -1,67 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 * {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.container{
-    width: 100vw;
-    height: 100vh;
-    background-color: #F8F4EC;
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F8F4EC;
 }
 
-.img-main{
-    max-width: 50rem;
-    height: auto;
-    margin-left: 17rem;
+.img-main {
+  max-width: 50rem;
+  height: auto;
+  margin-left: 17rem;
 }
 
 #name {
-    padding-top: 5vh;
-    color: black;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 6rem;
-    text-align: center;
+  padding-top: 5vh;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 6rem;
+  text-align: center;
 }
 
-.content{
-    padding-top: 27vh;
+.content {
+  padding-top: 27vh;
 }
 
-hr.hr-main{
-    width: 99vh;
-    margin-left: 21%;
-    border: 1px solid black;
+hr.hr-main {
+  width: 99vh;
+  margin-left: 21%;
+  border: 1px solid black;
 }
 
-.section1{
-    width: 100vw;
-    height: 100vh;
-    background-color: aqua;
+.section1 {
+  width: 100vw;
+  height: 100vh;
 }
 
-.section2{
-    width: 100vw;
-    height: 100vh;
-    background-color: antiquewhite;
+.section1 > div {
+  display: flex;
 }
 
-.section3{
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
+.section2 {
+  width: 100vw;
+  height: 100vh;
 }
+
+.section3 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.section4 {
+  width: 100vw;
+  height: 100vh;
+}/*# sourceMappingURL=Main.css.map */
